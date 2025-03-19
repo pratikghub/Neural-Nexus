@@ -96,12 +96,12 @@ You can install these packages using the following command:
 install.packages(c("dplyr", "tidyverse", "ggplot2", "tidymodels", "yardstick"))
 
 Installation and Usage
-1.	Install the required packages:
+	1.	Install the required packages:
 
 install.packages(c("dplyr", "tidyverse", "ggplot2", "tidymodels", "yardstick"))
 
 
-2.	Load the required libraries:
+	2.	Load the required libraries:
 
 library(dplyr)
 library(tidyverse)
