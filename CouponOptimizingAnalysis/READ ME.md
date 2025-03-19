@@ -96,23 +96,23 @@ You can install these packages using the following command:
 install.packages(c("dplyr", "tidyverse", "ggplot2", "tidymodels", "yardstick"))
 
 Installation and Usage
-	1.	Install the required packages:
+1.	Install the required packages:
 
-install.packages(c("dplyr", "tidyverse", "ggplot2", "tidymodels", "yardstick"))
+		install.packages(c("dplyr", "tidyverse", "ggplot2", "tidymodels", "yardstick"))
 
 
-	2.	Load the required libraries:
+2.	Load the required libraries:
 
-library(dplyr)
-library(tidyverse)
-library(ggplot2)
-library(tidymodels)
-library(yardstick)
+		library(dplyr)
+		library(tidyverse)
+		library(ggplot2)
+		library(tidymodels)
+		library(yardstick)
 
 
 3.	Load the dataset:
 
-salmon <- read_csv("path_to_salmons.csv")
+		salmon <- read_csv("path_to_salmons.csv")
 
 
 4.	Run the analysis script to generate visualizations and model evaluations.
