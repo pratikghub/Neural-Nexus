@@ -1,4 +1,4 @@
-#Businfo 704 Assignment 6 RScript - Author : Pratik Ganguli (Pgan-501)
+# Author : Pratik Ganguli (Pgan-501)
 
 
 # Installing the required packages 
