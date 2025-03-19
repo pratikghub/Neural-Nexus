@@ -57,17 +57,17 @@ To install the required libraries, use the following command in R:
 install.packages(c("dplyr", "tidyverse", "ggplot2", "tidymodels", "yardstick"))
 
 Running the Analysis
-	1.	Clone this repository to your local machine.
-	2.	Load the dataset using the following command:
+1.	Clone this repository to your local machine.
+2.	Load the dataset using the following command:
 
 salmon <- read_csv("path/to/salmon_data.csv")
 
-	3.	Run the R script data_analysis.R to replicate the analysis. This will:
+3.	Run the R script data_analysis.R to replicate the analysis. This will:
 	•	Load and explore the data
 	•	Visualize the spending distribution by coupon usage
 	•	Train the logistic regression model
 	•	Evaluate the model’s performance using a confusion matrix, ROC curve, and various metrics
-	4.	The output will include:
+4.	The output will include:
 	•	Plots of the spending distribution and sigmoid curve
 	•	Model performance metrics
 	•	A confusion matrix and ROC curve
@@ -76,12 +76,13 @@ Results
 
 Model Performance Metrics
 
-Metric	Value
-Accuracy	89.0%
-Sensitivity (Recall)	96.8%
-Specificity	53.7%
-Precision	90.5%
-AUC (Area Under Curve)	0.90
+| Metric             | Value   |
+|--------------------|---------|
+| Accuracy           | 89.0%   |
+| Sensitivity        | 96.8%   |
+| Specificity        | 53.7%   |
+| Precision          | 90.5%   |
+| AUC                | 0.90    |
 
 Key Findings
 	•	The model identifies customers with high spending as the most likely to redeem a coupon.
