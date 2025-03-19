@@ -1,4 +1,4 @@
-#Businfo704 Assignment 5 RScript by Pratik Ganguli (pgan501)
+# ~ Author: Pratik Ganguli (pgan501)
 
 # Loading the required libraries
 library(dplyr)        # Data manipulation
