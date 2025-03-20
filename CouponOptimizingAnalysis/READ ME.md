@@ -1,6 +1,6 @@
 ## Title : An Analysis on Optimizing Coupon Distribution Based on Spending Behaviour
 
-### Author: Pratik Ganguli (pgan501)
+### Author: Pratik Ganguli 
 
 ## Overview
 
