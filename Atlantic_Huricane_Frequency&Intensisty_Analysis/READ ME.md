@@ -12,7 +12,6 @@ This study examines how storm frequency and intensity have changed over time by 
 
 By identifying shifts in storm characteristics, this study seeks to uncover climate change patterns and provide insights into storm preparedness strategies.
 
-⸻
 
 ## Key Findings
 1.	Storm occurrences have risen significantly over time.
@@ -29,7 +28,6 @@ By identifying shifts in storm characteristics, this study seeks to uncover clim
 
 These findings highlight growing storm unpredictability, reinforcing the need for stronger disaster preparedness measures.
 
-⸻
 
 ## Data Source
 •	Dataset: storms (available in R)
@@ -42,7 +40,6 @@ These findings highlight growing storm unpredictability, reinforcing the need fo
 •	status: Storm classification (Tropical, Extratropical, Subtropical, Hurricane)
 •	year: Year of occurrence
 
-⸻
 
 ## Summary Statistics by Decade (1970-2020)
 
@@ -56,7 +53,6 @@ These findings highlight growing storm unpredictability, reinforcing the need fo
 | 2020s   | 15                     | 48.6                   | 140                    | 917               | 994               | 1018              |
 
 
-⸻
 
 ## Visualization Highlights
 
@@ -73,7 +69,6 @@ Figure 1.2 confirms the inverse relationship between wind speed and atmospheric 
 	•	Extreme storms (160+ knots) have persisted across multiple decades.
 	•	While maximum wind speeds remain stable, minimum pressures are dropping.
 
-⸻
 
 ## Technical Implementation
 
@@ -150,7 +145,6 @@ Ensure these libraries are installed before running the code:
 
 
 
-⸻
 
 ## Conclusion
 
@@ -161,10 +155,8 @@ This study highlights a significant increase in storm frequency over the past de
 
 Future work could explore climate-related drivers such as sea surface temperature anomalies, ENSO cycles, and regional storm patterns.
 
-⸻
 
 ## License
 
 This project is licensed under the MIT License.
 
-⸻
