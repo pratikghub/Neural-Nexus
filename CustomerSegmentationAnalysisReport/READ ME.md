@@ -1,5 +1,5 @@
 ## Project Title: Customer Segmentation using Unsupervised Machine Learning
-Author: Pratik Ganguli 
+### Author: Pratik Ganguli 
 
 
 ## Overview
