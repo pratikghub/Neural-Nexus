@@ -1,8 +1,8 @@
-An Analysis on NOAA Atlantic Storm Frequencies and Intensities Over Time
+## An Analysis on NOAA Atlantic Storm Frequencies and Intensities Over Time
 
-Author: Pratik Ganguli (pgan501)
+### Author: Pratik Ganguli (pgan501)
 
-Overview
+## Overview
 
 The storms dataset, available in R, provides historical storm track data from 1975 to 2022, sourced from the NOAA Atlantic hurricane database (HURDAT).
 This study examines how storm frequency and intensity have changed over time by analyzing variations in:
@@ -14,16 +14,16 @@ By identifying shifts in storm characteristics, this study seeks to uncover clim
 
 ⸻
 
-Key Findings
-	1.	Storm occurrences have risen significantly over time.
+## Key Findings
+1.	Storm occurrences have risen significantly over time.
 	•	In the late 1970s and early 1980s, storm counts fluctuated between 200 and 300 annually.
 	•	From the 1990s onward, storm frequency increased sharply, with several years exceeding 500 storms.
 	•	2005 and 2020 recorded over 800 storms, likely influenced by rising global temperatures and ocean warming.
-	2.	Storm intensity trends show shifting distributions rather than a uniform increase.
+2.	Storm intensity trends show shifting distributions rather than a uniform increase.
 	•	Lower pressures correspond to stronger storms, as expected.
 	•	Maximum wind speeds have remained relatively stable over time.
 	•	Minimum pressure values have dropped significantly (as low as 882 mb in the 2000s), indicating that some storms are reaching greater intensities.
-	3.	Tropical and extratropical storms exhibit different trends.
+3.	Tropical and extratropical storms exhibit different trends.
 	•	Extratropical storms have become more frequent.
 	•	Tropical storms and depressions show greater variability in their occurrences.
 
@@ -31,20 +31,20 @@ These findings highlight growing storm unpredictability, reinforcing the need fo
 
 ⸻
 
-Data Source
-	•	Dataset: storms (available in R)
-	•	Source: NOAA Atlantic hurricane database (HURDAT)
-	•	Time Period: 1975 – 2022
-	•	Total Observations: 19,537
-	•	Key Variables:
-	•	wind: Wind speed in knots
-	•	pressure: Atmospheric pressure in mb
-	•	status: Storm classification (Tropical, Extratropical, Subtropical, Hurricane)
-	•	year: Year of occurrence
+## Data Source
+•	Dataset: storms (available in R)
+•	Source: NOAA Atlantic hurricane database (HURDAT)
+•	Time Period: 1975 – 2022
+•	Total Observations: 19,537
+•	Key Variables:
+•	wind: Wind speed in knots
+•	pressure: Atmospheric pressure in mb
+•	status: Storm classification (Tropical, Extratropical, Subtropical, Hurricane)
+•	year: Year of occurrence
 
 ⸻
 
-Summary Statistics by Decade (1970-2020)
+## Summary Statistics by Decade (1970-2020)
 
 | Decade  | Min Wind Speed (Knots) | Mean Wind Speed (Knots) | Max Wind Speed (Knots) | Min Pressure (mb) | Mean Pressure (mb) | Max Pressure (mb) |
 |---------|------------------------|------------------------|------------------------|-------------------|-------------------|-------------------|
@@ -58,9 +58,9 @@ Summary Statistics by Decade (1970-2020)
 
 ⸻
 
-Visualization Highlights
+## Visualization Highlights
 
-Annual Storm Frequency Over Time (1975-2022)
+### Annual Storm Frequency Over Time (1975-2022)
 
 Figure 1.1 reveals a sharp increase in annual storm counts over time.
 	•	Storm frequency has risen dramatically since the 1990s.
@@ -75,7 +75,7 @@ Figure 1.2 confirms the inverse relationship between wind speed and atmospheric 
 
 ⸻
 
-Technical Implementation
+## Technical Implementation
 
 1. Required Libraries
 
@@ -152,7 +152,7 @@ Ensure these libraries are installed before running the code:
 
 ⸻
 
-Conclusion
+## Conclusion
 
 This study highlights a significant increase in storm frequency over the past decades, with severe storms occurring frequently.
 	•	Storms have become more frequent and intense in certain metrics (lower pressure values).
@@ -163,7 +163,7 @@ Future work could explore climate-related drivers such as sea surface temperatur
 
 ⸻
 
-License
+## License
 
 This project is licensed under the MIT License.
 
