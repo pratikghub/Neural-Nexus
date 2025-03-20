@@ -1,15 +1,15 @@
-Churn Prediction Model README
+## Title: An Analysis of Customer Churn Prediction Using Classification Models with K-Folds Cross Validation
+### Author: Pratik Ganguli
 
-Overview
+## Overview
 
 This project aims to predict customer churn using a variety of machine learning models, including Logistic Regression, k-Nearest Neighbors (k-NN), Random Forest, XGBoost, and LightGBM. The dataset contains information about customer behaviors and demographics, and the goal is to identify whether a customer will churn (leave the company) based on this information.
 
 The project uses k-fold cross-validation to assess the performance of each model and evaluate its robustness. A variety of performance metrics are used to ensure accurate and reliable predictions.
 
-⸻
 
 Table of Contents
-	1.	Dataset Overview
+	1.	Dataset Overview [##Overview]
 	2.	Data Preprocessing
 	3.	Modeling
 	4.	Evaluation Metrics
