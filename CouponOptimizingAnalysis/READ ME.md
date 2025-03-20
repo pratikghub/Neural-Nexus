@@ -11,8 +11,8 @@ The goal is to apply a logistic regression model to predict which customers are 
 ## Data Description
 
 The dataset consists of customer spending behavior, where each customer has the following features:
-•	Spending: Total spending of the customer from the previous year.
-•	Coupon: A binary variable indicating whether the customer redeemed a coupon (“Yes” or “No”).
+• Spending: Total spending of the customer from the previous year.
+• Coupon: A binary variable indicating whether the customer redeemed a coupon (“Yes” or “No”).
 
 ## Exploratory Data Analysis (EDA)
 
