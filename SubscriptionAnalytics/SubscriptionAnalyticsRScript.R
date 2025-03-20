@@ -1,6 +1,5 @@
-
-#Authors: Yiyi Gan (ygan882), Leah Song (gson333), Tianhui Gong (tgon790), Pratik Ganguli (pgan501), Jaisurya (jr423)
-#University of Auckland - BUSINFO 704 - Group 24 - 2025 Quarter 1
+#Authors: Yiyi Gan , Leah Song , Tianhui Gong , Pratik Ganguli , Jaisurya 
+#University of Auckland - 2025 Quarter 1
 
 
 
