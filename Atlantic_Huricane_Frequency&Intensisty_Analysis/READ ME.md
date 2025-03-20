@@ -46,14 +46,14 @@ Data Source
 
 Summary Statistics by Decade (1970-2020)
 
-Decade	Min Wind Speed (Knots)	Mean Wind Speed (Knots)	Max Wind Speed (Knots)	Min Pressure (mb)	Mean Pressure (mb)	Max Pressure (mb)
-1970s	15	50.9	150	924	995	1015
-1980s	10	51.0	165	888	994	1018
-1990s	10	51.4	155	905	993	1020
-2000s	10	49.9	160	882	993	1024
-2010s	15	49.0	160	908	994	1021
-2020s	15	48.6	140	917	994	1018
-
+| Decade  | Min Wind Speed (Knots) | Mean Wind Speed (Knots) | Max Wind Speed (Knots) | Min Pressure (mb) | Mean Pressure (mb) | Max Pressure (mb) |
+|---------|------------------------|------------------------|------------------------|-------------------|-------------------|-------------------|
+| 1970s   | 15                     | 50.9                   | 150                    | 924               | 995               | 1015              |
+| 1980s   | 10                     | 51.0                   | 165                    | 888               | 994               | 1018              |
+| 1990s   | 10                     | 51.4                   | 155                    | 905               | 993               | 1020              |
+| 2000s   | 10                     | 49.9                   | 160                    | 882               | 993               | 1024              |
+| 2010s   | 15                     | 49.0                   | 160                    | 908               | 994               | 1021              |
+| 2020s   | 15                     | 48.6                   | 140                    | 917               | 994               | 1018              |
 
 
 ⸻
