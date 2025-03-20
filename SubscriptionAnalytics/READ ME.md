@@ -6,7 +6,7 @@
 - Leah Song
 - Tianhui Gong
 - Pratik Ganguli
-- Jaisurya (jr423)
+- Jaisurya
 
 ### Table of Contents
 - [Problem Statement](#problem-statement)
