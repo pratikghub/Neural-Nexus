@@ -1,4 +1,4 @@
-# Businfo704 Assignment 4 by Pratik Ganguli (pgan501)
+# ~ Author: Pratik Ganguli (pgan501)
 # Installing and loading the required libraries for data manipulation, visualization, and modeling
 install.packages(c("dplyr", "ggplot2", "cowplot", "GGally"))
 
