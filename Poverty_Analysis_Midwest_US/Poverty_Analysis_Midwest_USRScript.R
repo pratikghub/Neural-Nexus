@@ -1,5 +1,4 @@
-######## R Script For Businfo704 Assignment 2 (pgan501) ########
-
+# ~ Author - Pratik Ganguli (pgan501)
 
 # Loading necessary library and dataset
 library(ggplot2)
