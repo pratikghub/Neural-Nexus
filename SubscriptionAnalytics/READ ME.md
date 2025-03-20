@@ -1,6 +1,13 @@
 # Title: Driving Subscription Growth for Ted & Poppy
 ## Enhancing Customer Retention and Implementing Strategies to Boost Subscription Numbers and Business Growth
 
+## Authors :
+- Yiyi Gan
+- Leah Song
+- Tianhui Gong
+- Pratik Ganguli
+- Jaisurya (jr423)
+
 ### Table of Contents
 - [Problem Statement](#problem-statement)
 - [Executive Summary](#executive-summary)
@@ -118,11 +125,11 @@ Based on our findings, we propose the following strategies to reduce churn:
 ## License
 This project is licensed under the **MIT License**. You are free to use, modify, and distribute this project with proper attribution.
 
-### Acknowledgements
+## Acknowledgements
 This project was completed as part of a Master’s program project at the University of Auckland. Special thanks to my team members for their valuable contributions.
 
 
-### References
+## References
 1. Levesque, X., & Sho, D. (2020). Building and sustaining profitable customer loyalty for the 21st century. *Journal of Retailing, 96*(3), 310-325. [DOI:10.1016/j.jretai.2020.03.003](https://doi.org/10.1016/j.jretai.2020.03.003)
 2. Lassi, M., & Kamal, P. (2022). Machine learning approaches in churn prediction. *International Journal of Data Science & Business Intelligence, 5*(2), 119-137. [DOI:10.1109/IJDSBI.2022.987654](https://doi.org/10.1109/IJDSBI.2022.987654)
 
