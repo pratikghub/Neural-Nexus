@@ -9,7 +9,7 @@ The project uses k-fold cross-validation to assess the performance of each model
 
 
 Table of Contents
-	1.	Dataset Overview [##Overview]
+	1.	[Dataset Overview] (#Overview)
 	2.	Data Preprocessing
 	3.	Modeling
 	4.	Evaluation Metrics
