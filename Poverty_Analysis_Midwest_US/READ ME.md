@@ -1,37 +1,41 @@
-Project Title
+## Project Title : The Analysis of Poverty Rates in United States Across Midwestern States
 
-The Analysis of Poverty Rates in United States Across Midwestern States
+### Author : Pratik Ganguli 
 
-Author
 
-Pratik Ganguli (pgan501)
-
-Overview
+## Overview
 
 This analysis explores poverty rates across five Midwestern states—Illinois (IL), Indiana (IN), Michigan (MI), Ohio (OH), and Wisconsin (WI)—using the midwest dataset available in R. The dataset consists of 437 observations, offering detailed demographic and socio-economic data at the county level. The primary focus is the percentage of people living below the poverty line (percbelowpoverty) and how it varies across these states.
 
-Key Findings
-	1.	Poverty Rate Distribution
-	•	The median poverty rate is 11.82%, indicating that half of the counties have rates below this threshold.
-	•	The mean poverty rate is 12.51%, slightly higher than the median, signifying a right-skewed distribution.
-	•	This skewness is driven by counties with significantly high poverty rates, particularly in Wisconsin, where some counties exhibit extreme poverty levels exceeding 30% and even approaching 50%.
-	2.	Statewise Analysis
-	•	Illinois & Indiana: Concentrated poverty rates between 10%–15%, with narrow interquartile ranges (IQRs) and low standard deviations, indicating consistent poverty distributions.
-	•	Michigan & Ohio: Broader distributions with portions extending above 15%, suggesting greater variability in poverty levels.
-	•	Wisconsin: Shows the highest outliers, indicating extreme poverty in certain counties, as confirmed by a long-tailed boxplot.
-	3.	Density & Boxplot Analysis
-	•	The density curves show that most states cluster around 10%–15% poverty rates, but the long tails of Illinois and Wisconsin indicate significant disparities.
-	•	Boxplots highlight that Wisconsin has the most extreme cases, whereas Illinois and Indiana have more stable distributions.
 
-Dataset
+## Key Findings
+
+1.	Poverty Rate Distribution
+•	The median poverty rate is 11.82%, indicating that half of the counties have rates below this threshold.
+•	The mean poverty rate is 12.51%, slightly higher than the median, signifying a right-skewed distribution.
+•	This skewness is driven by counties with significantly high poverty rates, particularly in Wisconsin, where some counties exhibit extreme poverty levels exceeding 30% and even approaching 50%.
+
+2.	Statewise Analysis
+•	Illinois & Indiana: Concentrated poverty rates between 10%–15%, with narrow interquartile ranges (IQRs) and low standard deviations, indicating consistent poverty distributions.
+•	Michigan & Ohio: Broader distributions with portions extending above 15%, suggesting greater variability in poverty levels.
+•	Wisconsin: Shows the highest outliers, indicating extreme poverty in certain counties, as confirmed by a long-tailed boxplot.
+	
+3.	Density & Boxplot Analysis
+•	The density curves show that most states cluster around 10%–15% poverty rates, but the long tails of Illinois and Wisconsin indicate significant disparities.
+•	Boxplots highlight that Wisconsin has the most extreme cases, whereas Illinois and Indiana have more stable distributions.
+
+
+## Dataset
 
 The dataset used in this analysis is the midwest dataset, available in R. It contains the following relevant columns:
-	•	state: State name
-	•	percbelowpoverty: Percentage of people living below the poverty line
+1.	state: State name
+2.	percbelowpoverty: Percentage of people living below the poverty line
 
-Statistical Summary
+
+## Statistical Summary
 
 Overall Poverty Rate Distribution
+
 | Statistic          | Value  |
 |--------------------|--------|
 | Minimum           | 2.18%  |
@@ -42,7 +46,7 @@ Overall Poverty Rate Distribution
 | Maximum           | 48.69% |
 
 
-Statewise Statistics
+## State-wise Statistics
 
 | State            | Min    | Q1    | Median  | Mean   | Q3    | Max    | IQR   | SD    |
 |------------------|--------|-------|---------|--------|-------|--------|-------|-------|
@@ -53,11 +57,12 @@ Statewise Statistics
 | Wisconsin (WI)   | 2.18%  | 9.07% | 11.42%  | 11.89% | 13.94%| 48.69% | 4.87  | 5.78  |
 
 
-Visualizations
-	•	Density Plot (Fig 1.1): Shows the distribution of poverty rates across states, highlighting variations in concentration and extreme values.
-	•	Boxplot (Fig 1.2): Visualizes poverty rate distributions across states, identifying outliers and spread.
+## Visualizations
 
-R Code for Analysis
+•	Density Plot (Fig 1.1): Shows the distribution of poverty rates across states, highlighting variations in concentration and extreme values.
+•	Boxplot (Fig 1.2): Visualizes poverty rate distributions across states, identifying outliers and spread.
+
+## R Code for Analysis
 
 1. Loading Necessary Libraries & Dataset
         
@@ -131,10 +136,10 @@ Histogram
           theme_minimal() +
           theme(plot.title = element_text(hjust = 0.5, size = 16, face = "bold"))
 
-Requirements
+## Requirements
 	•	R version 4.0+
 	•	ggplot2 package
 
-License
+## License
 
 This project is licensed under the MIT License. You are free to use, modify, and distribute the code with proper attribution to the author.
