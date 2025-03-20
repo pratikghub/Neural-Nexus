@@ -81,72 +81,72 @@ Technical Implementation
 
 Ensure these libraries are installed before running the code:
 
-install.packages("tidyverse")   # Install if not already installed
-library(ggplot2)                # For data visualization
-library(dplyr)                  # For data manipulation
+	install.packages("tidyverse")   # Install if not already installed
+	library(ggplot2)                # For data visualization
+	library(dplyr)                  # For data manipulation
 
 2. Load and Explore the Data
-
-data(storms)         # Load the built-in 'storms' dataset
-summary(storms)      # Summary statistics
-colnames(storms)     # Check column names
-str(storms)          # Structure of the dataset
-print(head(storms, 3), width = Inf)  # View first 3 rows
+	
+		data(storms)         # Load the built-in 'storms' dataset
+		summary(storms)      # Summary statistics
+		colnames(storms)     # Check column names
+		str(storms)          # Structure of the dataset
+		print(head(storms, 3), width = Inf)  # View first 3 rows
 
 3. Check for Missing Values
-
-sum(is.na(storms))       # Total missing values
-colSums(is.na(storms))   # Missing values per column
-storms1 <- na.omit(storms)  # Remove missing values
+	
+		sum(is.na(storms))       # Total missing values
+		colSums(is.na(storms))   # Missing values per column
+		storms1 <- na.omit(storms)  # Remove missing values
 
 4. Calculate Annual Storm Frequency
 
-freq_storms <- storms %>%
-  group_by(year) %>%
-  summarise(count = n()) %>%
-  select(year, count)
+		freq_storms <- storms %>%
+		  group_by(year) %>%
+		  summarise(count = n()) %>%
+		  select(year, count)
 
 5. Visualize Annual Storm Frequency
-
-ggplot(freq_storms, aes(x = year, y = count)) +
-  geom_line(color = "steelblue", size = 1.2) + 
-  geom_smooth(method = "loess", color = "darkred", linetype = "dashed", size = 0.8, se = FALSE) +
-  labs(
-    title = "Annual Storm Frequency Over Time",
-    x = "Year",
-    y = "Number of Storms",
-    caption = "Source: NOAA Atlantic hurricane | Visualization by Pratik Ganguli"
-  ) +
-  theme_classic()
+		
+		ggplot(freq_storms, aes(x = year, y = count)) +
+		  geom_line(color = "steelblue", size = 1.2) + 
+		  geom_smooth(method = "loess", color = "darkred", linetype = "dashed", size = 0.8, se = FALSE) +
+		  labs(
+		    title = "Annual Storm Frequency Over Time",
+		    x = "Year",
+		    y = "Number of Storms",
+		    caption = "Source: NOAA Atlantic hurricane | Visualization by Pratik Ganguli"
+		  ) +
+		  theme_classic()
 
 6. Summary of Storm Intensity by Decade
-
-storms %>% 
-  mutate(decade = floor(year / 10) * 10) %>%
-  group_by(decade) %>%
-  summarise(
-    min_wind = min(wind, na.rm = TRUE),
-    mean_wind = mean(wind, na.rm = TRUE),
-    max_wind = max(wind, na.rm = TRUE),
-    min_pressure = min(pressure, na.rm = TRUE),
-    mean_pressure = mean(pressure, na.rm = TRUE),
-    max_pressure = max(pressure, na.rm = TRUE)
-  ) -> summary_decade
-
-print(summary_decade, width = Inf)
+		
+		storms %>% 
+		  mutate(decade = floor(year / 10) * 10) %>%
+		  group_by(decade) %>%
+		  summarise(
+		    min_wind = min(wind, na.rm = TRUE),
+		    mean_wind = mean(wind, na.rm = TRUE),
+		    max_wind = max(wind, na.rm = TRUE),
+		    min_pressure = min(pressure, na.rm = TRUE),
+		    mean_pressure = mean(pressure, na.rm = TRUE),
+		    max_pressure = max(pressure, na.rm = TRUE)
+		  ) -> summary_decade
+		
+		print(summary_decade, width = Inf)
 
 7. Visualize Wind vs. Pressure Across Decades
-
-ggplot(storms, aes(x = wind, y = pressure, colour = status)) +
-  geom_point(alpha = 0.8, size = 1.4) + 
-  labs(
-    title = "Wind Speed vs. Pressure Across Decades",
-    x = "Wind Speed (knots)",
-    y = "Pressure (mb)",
-    colour = "Storm Status"
-  ) +
-  theme_classic() +
-  facet_wrap(~ decade, scales = "free") 
+		
+		ggplot(storms, aes(x = wind, y = pressure, colour = status)) +
+		  geom_point(alpha = 0.8, size = 1.4) + 
+		  labs(
+		    title = "Wind Speed vs. Pressure Across Decades",
+		    x = "Wind Speed (knots)",
+		    y = "Pressure (mb)",
+		    colour = "Storm Status"
+		  ) +
+		  theme_classic() +
+		  facet_wrap(~ decade, scales = "free") 
 
 
 
