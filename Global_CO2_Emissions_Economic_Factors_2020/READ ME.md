@@ -124,7 +124,7 @@ These plots ensure that the regression model satisfies the assumptions of homosc
 
 Combined Diagnostic Plots
 
-# Combining diagnostic plots for easy comparison 
+##### Combining diagnostic plots for easy comparison 
 			cowplot::plot_grid(p0, p1, p2, p3)
 
 ## Conclusion
