@@ -125,8 +125,9 @@ Based on our findings, we propose the following strategies to reduce churn:
 ## License
 This project is licensed under the **MIT License**. You are free to use, modify, and distribute this project with proper attribution.
 
-## Acknowledgements
-This project was completed as part of a Master’s program project at the [University of Auckland](https://www.auckland.ac.nz/en.html). Special thanks to my team members for their valuable contributions.
+
+## Acknowledgments
+- This project was completed as part of a Master’s program project at the [University of Auckland](https://www.auckland.ac.nz/en.html). Special thanks to the University of Auckland for the opportunity to undertake this project and my team members for their invaluable support.
 
 
 ## References
