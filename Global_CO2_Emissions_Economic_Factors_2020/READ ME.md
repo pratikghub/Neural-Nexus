@@ -159,7 +159,12 @@ To install the required packages, run the following command in R:
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
-Extended Insights
+## Extended Insights
 
 Beyond numerical analysis, this study highlights the broader implications of economic policies on sustainability. Policymakers must balance economic growth with environmental considerations, emphasizing the importance of green energy initiatives.
+
+
+## Acknowledgments
+
+- This project was completed as part of a Master’s program project at the [University of Auckland](https://www.auckland.ac.nz/en.html). Special thanks to the University of Auckland for the opportunity to undertake this project and for their invaluable support.
 
