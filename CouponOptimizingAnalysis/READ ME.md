@@ -122,3 +122,8 @@ Installation and Usage
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
+
+## Acknowledgments
+- This project was completed as part of a Master’s program project at the [University of Auckland](https://www.auckland.ac.nz/en.html). Special thanks to the University of Auckland for the opportunity to undertake this project and for their invaluable support.
+
+
