@@ -94,7 +94,9 @@ Two-step clustering using **SPSS** has proven effective in segmenting a diverse 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
-Special thanks to [IBM SPSS](https://www.ibm.com/spss) for providing an intuitive clustering tool and to OpenAI's ChatGPT for assisting in documentation.
+- This project was completed as part of a Master’s program project at the [University of Auckland](https://www.auckland.ac.nz/en.html). Special thanks to the University of Auckland for the opportunity to undertake this project and for their invaluable support and [IBM SPSS](https://www.ibm.com/spss) for providing an intuitive clustering tool.
+
+
 
 
 
