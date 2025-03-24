@@ -1,6 +1,6 @@
-## Project Title**: Neural Network Hyperparameter Tuning for Flight Delay Classification
+## Project Title: Neural Network Hyperparameter Tuning for Flight Delay Classification
 
-### Author**: Pratik Ganguli  
+### Author: Pratik Ganguli  
 
 
 ## Overview
