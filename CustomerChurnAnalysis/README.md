@@ -128,5 +128,66 @@ This project is licensed under the MIT License.
 
 - This project was completed as part of a Master’s program project at the [University of Auckland](https://www.auckland.ac.nz/en.html). Special thanks to the University of Auckland for the opportunity to undertake this project and for their invaluable support.
 
+## Other Tools:
 
+Power BI: For dashboard creation.
+Datasets: Access the 25 datasets listed below.
+
+## Dataset & Source References
+
+### 🎬 IMDB & OTT Platforms
+- **IMDB OTT Platforms Movies (Power BI Dashboard)**  
+  Motiani, Y. (n.d.). *IMDB OTT Platforms Movies (Power BI Dashboard)*. [Kaggle](https://www.kaggle.com/datasets/yashmotiani/imdb-ott-platforms-movies-power-bi-dashboard)
+
+- **IMDb Non-Commercial Datasets**  
+  IMDb. (n.d.). *IMDb Non-Commercial Datasets*. [IMDb Developer](https://developer.imdb.com/non-commercial-datasets/)
+
+- **IMDB Dataset**  
+  Amanat, P. (n.d.). *IMDB Dataset*. [Kaggle](https://www.kaggle.com/datasets/payamamanat/imbd-dataset)
+
+### 📺 Streaming Services – Multi-platform
+- **Movies on Netflix, Prime Video, Hulu and Disney**  
+  Ruchi798. (n.d.). *Movies on Netflix, Prime Video, Hulu and Disney*. [Kaggle](https://www.kaggle.com/datasets/ruchi798/movies-on-netflix-prime-video-hulu-and-disney)
+
+- **OTT Video Streaming Platforms Revenue and Users**  
+  Wasi, A. T. (n.d.). *OTT Video Streaming Platforms Revenue and Users*. [Kaggle](https://www.kaggle.com/datasets/azminetoushikwasi/ott-video-streaming-platforms-revenue-and-users)
+
+- **Netflix OTT Revenue and Subscribers CSV File**  
+  Mauryans, S. (n.d.). *Netflix OTT Revenue and Subscribers CSV File*. [Kaggle](https://www.kaggle.com/datasets/mauryansshivam/netflix-ott-revenue-and-subscribers-csv-file)
+
+### Netflix-Specific
+- **Netflix Movies and TV Shows Clustering**  
+  Bansode, S. (n.d.). *Netflix Movies and TV Shows Clustering*. [Kaggle](https://www.kaggle.com/code/bansodesandeep/netflix-movies-and-tv-shows-clustering)
+
+- **Netflix Original Films IMDb Scores**  
+  Corter, L. (n.d.). *Netflix Original Films IMDb Scores*. [Kaggle](https://www.kaggle.com/datasets/luiscorter/netflix-original-films-imdb-scores)
+
+- **Netflix Originals CSV**  
+  PrasertCB. (n.d.). *NetflixOriginals.csv*. [GitHub](https://github.com/prasertcbs/basic-dataset/blob/master/NetflixOriginals.csv)
+
+- **Netflix Customer Churn and Engagement Dataset**  
+  Dddtra. (n.d.). *Netflix Customer Churn and Engagement Dataset*. [Kaggle](https://www.kaggle.com/datasets/dddtra/netflix-customer-churn-and-engagement-dataset)
+
+- **Netflix Engagement Report**  
+  Konradb. (n.d.). *Netflix Engagement Report*. [Kaggle](https://www.kaggle.com/datasets/konradb/netflix-engagement-report/data)
+
+- **Netflix Reviews (Play Store, Daily Updated)**  
+  Ashishkumarak. (n.d.). *Netflix Reviews (Play Store, Daily Updated)*. [Kaggle](https://www.kaggle.com/datasets/ashishkumarak/netflix-reviews-playstore-daily-updated)
+
+### Other Platforms
+- **Paramount Movies and TV Shows**  
+  Goenrique, D. (n.d.). *Paramount Movies and TV Shows*. [Kaggle](https://www.kaggle.com/datasets/dgoenrique/paramount-movies-and-tv-shows)
+
+- **Apple TV Movies and TV Shows**  
+  Goenrique, D. (n.d.). *Apple TV Movies and TV Shows*. [Kaggle](https://www.kaggle.com/datasets/dgoenrique/apple-tv-movies-and-tv-shows)
+
+- **Full HBO Max Dataset**  
+  Octopus Team. (n.d.). *Full HBO Max Dataset*. [Kaggle](https://www.kaggle.com/datasets/octopusteam/full-hbo-max-dataset)
+
+### General Statistics
+- **Netflix User Statistics**  
+  Dean, B. (n.d.). *Netflix User Statistics*. [Backlinko](https://backlinko.com/netflix-users)
+
+- **Netflix Statistics**  
+  Business of Apps. (n.d.). *Netflix Statistics*. [Business of Apps](https://www.businessofapps.com/data/netflix-statistics/?utm_source=chatgpt.com)
 
