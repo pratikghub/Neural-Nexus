@@ -34,6 +34,7 @@ Multiple public datasets were used in this project, including:
 
 ## 2. Data Wrangling and Preprocessing
 This project involved intensive data wrangling using Python to clean, harmonize, and transform multiple disparate datasets into a unified analytical framework. Using `pandas`, `numpy`, and `geopandas`, we performed complex joins, handled inconsistent regional identifiers, normalized financial values, and engineered high-level features required for modeling and visualization. The wrangling process was central to unlocking meaningful relationships in the data.
+
 The preprocessing pipeline included:
 
 1. **Missing Value Treatment**:
@@ -49,6 +50,11 @@ The preprocessing pipeline included:
 
 4. **Join Operations**:
    - Merged Airbnb data with socioeconomic indicators using standardized borough names.
+
+
+### Web Scraping
+
+Where required, additional data was gathered from public sources using Python-based scraping tools (`requests`, `BeautifulSoup`). This included handling pagination, parsing HTML tables, and saving structured outputs for merging with the primary datasets.
 
 ---
 
@@ -111,3 +117,23 @@ The analysis was performed using Python 3.8+ and the following libraries:
 
 ```bash
 pip install pandas numpy matplotlib seaborn plotly geopandas scikit-learn
+Python Libraries Used:
+
+pandas – Data manipulation and wrangling
+numpy – Numerical operations
+matplotlib & seaborn – Static visualizations
+plotly – Interactive visualizations
+geopandas – Geospatial data processing
+scikit-learn – Basic modeling and evaluation
+shapely – Geometry operations for maps
+```
+
+## 9. License
+
+This project is licensed under the **MIT License**.
+
+## 10. Acknowledgments
+
+- This project was undertaken as part of an academic and analytical exploration into urban economics and digital platforms within the **BUSINFO701** coursework at the [University of Auckland](https://www.auckland.ac.nz/en.html).
+- Thanks to the instructors and peers for their valuable input and support during the project.  
+- Special acknowledgment to **Inside Airbnb** for providing publicly accessible Airbnb listing data that made this analysis possible.
