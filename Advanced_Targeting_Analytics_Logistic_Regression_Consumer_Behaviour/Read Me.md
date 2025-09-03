@@ -234,8 +234,8 @@ This repository is licensed under **MIT License** – see `LICENSE` file for det
 
 ## Acknowledgments
 
-This Case Study Report was completed as part of a Master’s program project at the **[University of Auckland](https://www.auckland.ac.nz/en.html)**..  
-Special thanks to the [University of Auckland](https://www.auckland.ac.nz/en.html)**. for providing the opportunity to undertake this project and for their invaluable guidance and support throughout the research and analysis process.
+This Case Study Report was completed as part of a Master’s program project at the **[University of Auckland](https://www.auckland.ac.nz/en.html)**.  
+Special thanks to the **[University of Auckland](https://www.auckland.ac.nz/en.html)**. for providing the opportunity to undertake this project and for their invaluable guidance and support throughout the research and analysis process.
 
 ---
 
