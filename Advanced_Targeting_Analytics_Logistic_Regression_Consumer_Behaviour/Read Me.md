@@ -43,14 +43,10 @@ Key outcomes include:
 
 | File / Folder | Description |
 |---------------|-------------|
-| `data_ads.csv` | Raw dataset containing user-level campaign interactions (2,000 observations, 20 variables). |
-| `eda.R` | R script for exploratory data analysis (data inspection, summary statistics, conversion of timestamps, user-level aggregation). |
-| `logistic_models.R` | R script for logistic regression modeling, interaction effects, multicollinearity diagnostics, and model selection. |
-| `visualizations.R` | R script for plotting campaign exposure, user counts, and combined tables using `ggplot2` and `gridExtra`. |
+| `data_ads.csv` | Raw dataset containing user-level campaign interactions. |
+| `CrossSecData.R` | Single R script performing **EDA, logistic regression modeling, and visualizations**. |
+| `ADVANCED TARGETING ANALYTICS REPORT.pdf` | Consolidated report containing all figures, tables, model results, and analysis outputs. |
 | `README.md` | Detailed project documentation (this file). |
-| `figures/` | Folder containing generated plots, charts, and tables (bar plots, ROC curves, VIF tables). |
-| `results/` | Model performance metrics, including AIC, BIC, accuracy, ROC-AUC scores, and McFadden’s R² values. |
-
 ---
 
 ## Business Model
