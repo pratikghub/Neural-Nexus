@@ -1,4 +1,4 @@
-# Advanced Targeting Analytics: Logistic Regression Analysis of Multi-Channel Consumer Purchase Behaviour
+# Project Title : Advanced Targeting Analytics: Logistic Regression Analysis of Multi-Channel Consumer Purchase Behaviour
 
 ## Author
 
