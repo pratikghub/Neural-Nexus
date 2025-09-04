@@ -1,4 +1,4 @@
-# Project Title :Optimizing Airbnb Performance in New Zealand: Pricing, Segmentation, and Guest Insights
+# Project Title : Optimizing Airbnb Performance in New Zealand: Pricing, Segmentation, and Guest Insights
 ### Leveraging unbalanced panel data, k-prototypes clustering, and lexicon-driven sentiment analysis to uncover price determinants, identify distinct market segments in Auckland and Queenstown, and quantify guest perceptions—delivering actionable strategies for revenue optimisation, targeted promotions, and enhanced guest satisfaction.
 
 
@@ -20,6 +20,8 @@ Pratik Ganguli
 6. [Conclusion](#conclusion)  
 7. [References](#references)  
 8. [Appendix: Key Figures](#appendix-key-figures)
+9. [Acknowledgement](#acknowledgement)
+10. [Repository Usage](#repository-usage)
 
 ---
 
@@ -206,4 +208,27 @@ Data is structured as unbalanced and irregular panel data, meaning:
 - **Figure 1.13–1.14:** Positive/Negative Word Clouds  
 - **Figure 1.15–1.17:** Price by Month & Room Type  
 - **Figure 1.18:** Sentiment & Emotion Distribution  
-- **Figure 1.19–1.20:** 3D Cluster Visualisations (Auckland & Queenstown)  
+- **Figure 1.19–1.20:** 3D Cluster Visualisations (Auckland & Queenstown)
+
+---
+
+## Acknowledgement
+
+This Case Study Report was completed as part of a Master’s program project at the **University of Auckland**.  
+Special thanks to the University of Auckland for providing the opportunity to undertake this project and for their invaluable guidance and support.
+I also acknowledge **Airbnb (Inside Airbnb)** for making the dataset available for the past 12 months, which made this real-world application possible.  
+🔗 [Inside Airbnb Dataset](https://insideairbnb.com/)
+
+---
+
+## Repository Usage
+
+| File / Folder | Description |
+|---------------|-------------|
+| `CrossSecData.R` | Single R script for data wrangling, exploratory data analysis, regression modeling, and visualization. |
+| `AIRBNB_PRICING_ANALYTICS_REPORT.pdf` | Final comprehensive project report containing findings, models, and recommendations. |
+| `README.md` | Project documentation (this file). |
+
+---
+
+
