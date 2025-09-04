@@ -225,9 +225,12 @@ I also acknowledge **Airbnb (Inside Airbnb)** for making the dataset available f
 
 | File / Folder | Description |
 |---------------|-------------|
-| `CrossSecData.R` | Single R script for data wrangling, exploratory data analysis, regression modeling, and visualization. |
-| `AIRBNB_PRICING_ANALYTICS_REPORT.pdf` | Final comprehensive project report containing findings, models, and recommendations. |
-| `README.md` | Project documentation (this file). |
+| `README.md` | Comprehensive project documentation (this file). |
+| `Airbnb_NZ_Analytics_Report_2024-25.pdf` | Full project report containing detailed methodology, regression models, findings, and strategic recommendations. |
+| `SentimentAnalysisBNB.qmd` | Quarto script analyzing customer review text to extract sentiment patterns and consumer perception drivers. |
+| `2StepClusterAKL-QNT.qmd` | Quarto script performing 2-step cluster analysis on Auckland and Queenstown listings to segment markets by price, amenities, and consumer profiles. |
+| `Panel_data_regression_final.qmd` | Quarto script implementing panel data regression to account for time dynamics, heterogeneity, and demand shocks in Airbnb listings. |
+| `Airbnb_NZ_Executive_Presentation_2024-25.pdf` | Business-facing presentation deck summarizing key insights, pricing strategy implications, and recommendations for stakeholders. |
 
 ---
 
