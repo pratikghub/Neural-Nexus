@@ -1,6 +1,6 @@
 ---
 title: "panel_regression_bnb"
-author: "Rohan chawla"
+author: "Pratik Ganguli"
 format: html
 editor: visual
 ---
