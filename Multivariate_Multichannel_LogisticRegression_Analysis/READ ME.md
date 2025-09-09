@@ -217,6 +217,6 @@ The project aims to address these challenges using **advanced analytics**, parti
 
 ## Acknowledgement
 
-I would like to express my sincere gratitude to the **[University of Auckland (UOA)](https://www.auckland.ac.nz/en.html) for providing access to the dataset used in this analysis. The dataset has been invaluable in enabling the exploration of customer behavior, channel preferences, and seasonal purchasing trends.  
+I would like to express my sincere gratitude to the **[University of Auckland (UOA)](https://www.auckland.ac.nz/en.html)** for providing access to the dataset used in this analysis. The dataset has been invaluable in enabling the exploration of customer behavior, channel preferences, and seasonal purchasing trends.  
 
 The company associated with the data has been kept confidential to maintain privacy and confidentiality. Their contribution to this project is greatly appreciated.  
