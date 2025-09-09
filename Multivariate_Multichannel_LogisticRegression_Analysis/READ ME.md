@@ -1,7 +1,7 @@
 # Project Title : Multivariate Analytics of Customer Engagement and Behavioural Dynamics in a Multichannel Gift Retail Ecosystem
 
 Author: Pratik Ganguli
-Date: August 7, 2025
+Date: August 31, 2025
 University: University of Auckland
 
 ---
